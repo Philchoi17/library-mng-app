@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/choiphil/.nvm/versions/node/v16.13.0/bin/node /Users/choiphil/.yarn/bin/yarn.js add ethers hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomi
+
+PATH: 
+  /Users/choiphil/.yarn/bin:/Users/choiphil/.config/yarn/global/node_modules/.bin:/Users/choiphil/.jenv/shims:/Users/choiphil/.jenv/bin:/opt/homebrew/opt/openjdk/bin:/Users/choiphil/.nvm/versions/node/v16.13.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/choiphil/.nvm/versions/node/v16.13.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/choiphil/Dev/flutter/bin:/Users/choiphil/.nvm/versions/node/v16.13.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/choiphil/Dev/flutter/bin:/Users/choiphil/Dev/Packages/flutter/bin:/Users/choiphil/Library/Android/sdk/emulator:/Users/choiphil/Library/Android/sdk/tools:/Users/choiphil/Library/Android/sdk/tools/bin:/Users/choiphil/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@nomi: Request "https://registry.yarnpkg.com/@nomi" returned a 405
+      at Request.params.callback [as _callback] (/Users/choiphil/.yarn/lib/cli.js:66147:18)
+      at Request.self.callback (/Users/choiphil/.yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/choiphil/.yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/choiphil/.yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "library_mng_app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
